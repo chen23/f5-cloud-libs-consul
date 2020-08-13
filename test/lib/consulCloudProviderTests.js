@@ -196,7 +196,8 @@ module.exports = {
                     {
                         id: {
                             ID: '',
-                            Node: 'test-node-1'
+                            Node: 'test-node-1',
+                            ServicePort: 8888
                         },
                         ip: {
                             public: '192.0.2.47',
@@ -206,7 +207,8 @@ module.exports = {
                     {
                         id: {
                             ID: 'c17d2be5-200a-4ff1-ab92-996f120f88cc',
-                            Node: 'test-node-2'
+                            Node: 'test-node-2',
+                            ServicePort: 9090
                         },
                         ip: {
                             public: '192.0.2.48',
@@ -223,14 +225,16 @@ module.exports = {
                             ip: {
                                 public: '192.0.2.47',
                                 private: '192.0.2.17'
-                            }
+                            },
+                            port: 8888
                         },
                         {
                             id: 'c17d2be5-200a-4ff1-ab92-996f120f88cc',
                             ip: {
                                 public: '192.0.2.48',
                                 private: '192.0.2.18'
-                            }
+                            },
+                            port: 9090
                         }
                     ]);
                 })
