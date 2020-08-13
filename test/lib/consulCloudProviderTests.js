@@ -200,7 +200,7 @@ module.exports = {
                         },
                         ip: {
                             public: '192.0.2.47',
-                            private: '192.0.2.17'
+                            private: '192.0.2.47'
                         }
                     },
                     {
@@ -210,7 +210,7 @@ module.exports = {
                         },
                         ip: {
                             public: '192.0.2.48',
-                            private: '192.0.2.18'
+                            private: '192.0.2.48'
                         }
                     }
                 ]);
@@ -222,14 +222,14 @@ module.exports = {
                             id: 'test-node-1',
                             ip: {
                                 public: '192.0.2.47',
-                                private: '192.0.2.17'
+                                private: '192.0.2.47'
                             }
                         },
                         {
                             id: 'c17d2be5-200a-4ff1-ab92-996f120f88cc',
                             ip: {
                                 public: '192.0.2.48',
-                                private: '192.0.2.18'
+                                private: '192.0.2.48'
                             }
                         }
                     ]);
